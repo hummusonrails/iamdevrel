@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="{{ site.locale }}">
+  <head>
+    {% render "head", metadata: site.metadata, title: data.title, favicon: site.metadata.favicon %}
+  </head>
+  <body class="{{ data.layout }} {{ data.page_class }}">
+    <main>
+      {{ content }}
+    </main>
+  </body>
+</html>

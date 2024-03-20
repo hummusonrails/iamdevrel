@@ -1,0 +1,20 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+{% capture resource_title %}{{ title | strip_html | strip_newlines }}{% endcapture %}
+<title>{% if resource_title != "Index" %}{{ resource_title | escape }} | {{ metadata.title | escape }}{% else %}{{ metadata.title | escape }}: {{ metadata.tagline | escape }}{% endif %}</title>
+<link rel="icon" type="image/x-icon" href="{{ '/images/favicon.ico' | relative_url }}">
+<meta name="description" content="{{ metadata.description }}" />
+
+<meta property="og:title" content="I AM DEVREL">
+<meta property="og:description" content="DevRel is not a job.">
+<meta property="og:image" content="https://www.iamdevrel.com/iamdevrel/images/social-share.png">
+<meta property="og:url" content="https://www.iamdevrel.com">
+<meta name="twitter:card" content="summary_large_image">
+
+<meta name="twitter:image:alt" content="DevRel is not a job.">
+<meta name="twitter:site" content="@hummusonrails">
+<meta name="twitter:creator" content="@hummusonrails">
+
+<link rel="stylesheet" href="{% asset_path css %}" />
+<script src="{% asset_path js %}" defer></script>
+{% live_reload_dev_js %}

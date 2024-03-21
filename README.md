@@ -1,70 +1,57 @@
-# Bridgetown Website README
+# I AM DEVREL Website README 🚀
 
-Welcome to your new Bridgetown website! You can update this README file to provide additional context and setup information for yourself or other contributors.
+![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+![Code of Conduct](https://img.shields.io/badge/code%20of%20conduct-contributor%20covenant-ff69b4.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
+Welcome to the "I AM DEVREL" static site repository, a minimalist [Bridgetown](https://www.bridgetownrb.com/) web project designed to illuminate a not-so-shocking truth with a tad of dry humor: DevRel is the discipline, not a job title. Think of it as a lightbulb moment, only it's a website and the lightbulb is an emoji. 💡
+
+This website serves as a gentle, yet firm reminder that DevRel encompasses a variety of roles - each with its unique flavor.
 
 ## Table of Contents
 
-- [Prerequisites](#prerequisites)
-- [Install](#install)
-- [Development](#development)
-- [Commands](#commands)
-- [Deployment](#deployment)
+- [Quick Setup](#quick-setup)
+- [Running Locally](#running-locally)
+- [Building and Deployment](#building-and-deployment)
 - [Contributing](#contributing)
 
-## Prerequisites
+## Quick Setup
 
-- [GCC](https://gcc.gnu.org/install/)
-- [Make](https://www.gnu.org/software/make/)
-- [Ruby](https://www.ruby-lang.org/en/downloads/)
-  - `>= 2.7`
-- [Bridgetown Gem](https://rubygems.org/gems/bridgetown)
-  - `gem install bridgetown -N`
-- [Node](https://nodejs.org)
-  - `>= 12`
-- [Yarn](https://yarnpkg.com)
+Before you begin, ensure you have the essentials:
+- Ruby (>= 2.7)
+- Node (>= 12)
+- Yarn
+- A sense of humor (preferably dry)
 
-## Install
-
+Install Bridgetown if it isn't partying in your gem list yet:
 ```sh
-cd bridgetown-site-folder
-bundle install && yarn install
-```
-> Learn more: [Bridgetown Getting Started Documentation](https://www.bridgetownrb.com/docs/).
-
-## Development
-
-To start your site in development mode, run `bin/bridgetown start` and navigate to [localhost:4000](https://localhost:4000/)!
-
-Use a [theme](https://github.com/topics/bridgetown-theme) or add some [plugins](https://www.bridgetownrb.com/plugins/) to get started quickly.
-
-### Commands
-
-```sh
-# running locally
-bin/bridgetown start
-
-# build & deploy to production
-bin/bridgetown deploy
-
-# load the site up within a Ruby console (IRB)
-bin/bridgetown console
+gem install bridgetown -N
 ```
 
-> Learn more: [Bridgetown CLI Documentation](https://www.bridgetownrb.com/docs/command-line-usage)
+## Running Locally
 
-## Deployment
+Clone the repository to your local machine, run `bundle install && yarn install` to install dependencies, and then kick off the server with `bin/bridgetown start`. Now point your browser to `localhost:4000` to see the site in action!
 
-You can deploy Bridgetown sites on hosts like Render or Vercel as well as traditional web servers by simply building and copying the output folder to your HTML root.
+## Building and Deployment
 
-> Read the [Bridgetown Deployment Documentation](https://www.bridgetownrb.com/docs/deployment) for more information.
+Ready to share the DevRel lightbulb moment with the world? Build your static files using `bin/bridgetown build` and deploy them to the static site host of your choice.
 
 ## Contributing
 
-If repo is on GitHub:
+Contributions are welcome!
 
-1. Fork it
-2. Clone the fork using `git clone` to your local development machine.
-3. Create your feature branch (`git checkout -b my-new-feature`)
-4. Commit your changes (`git commit -am 'Add some feature'`)
-5. Push to the branch (`git push origin my-new-feature`)
-6. Create a new Pull Request
+1. Fork this repository.
+2. Create your feature branch (`git checkout -b my-amazing-contribution`).
+3. Commit your changes (`git commit -am 'Add something witty'`).
+4. Push to the branch (`git push origin my-amazing-contribution`).
+5. Open a Pull Request.
+
+Let's spread the word: DevRel is the discipline, not the job title! 🎈
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## Code of Conduct
+
+This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant code of conduct](CODE_OF_CONDUCT.md).
